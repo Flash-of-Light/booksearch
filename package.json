@@ -1,0 +1,8 @@
+{
+  "name": "booksearch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Jay-Goss/booksearch.git",
+  "author": "Jay Goss <jayspgoss@gmail.com>",
+  "license": "MIT"
+}
