@@ -1,12 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Component, fragment } from "react";
+// import logo from './logo.svg';
 import Navbar from "./components/Navbar";
-import './App.css';
+import BookSearch from "./components/BookSearch/search";
+import Results from "./components/Results/results";
+import Jumbotron from "./components/Jumbotron/jumbotron";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <Navbar />
+      <fragment>
+        <Navbar />
+        <Jumbotron />
+        <BookSearch />
+        <Results />
+
+      </fragment>
     );
   }
 }

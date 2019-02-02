@@ -1,4 +1,6 @@
-/* .title {
-  width: 100%;
-
-} */
+a {
+  /* color: #007bff; */
+  text-decoration: none;
+  background-color: transparent;
+  padding: 5px !important;
+}
