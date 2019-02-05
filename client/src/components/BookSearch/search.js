@@ -7,8 +7,8 @@ export default class Search extends React.Component {
     <div className="wrapper col-md-12">
       <Form>
         <FormGroup>
-          <Label for="exampleEmail">Search</Label>
-          <Input type="email" name="email" id="exampleEmail" placeholder="Find a sweet book" />
+          <Label for="booksearch">Search</Label>
+          <Input type="text" name="email" id="booksearch" placeholder="Find a sweet book" />
         </FormGroup>
         <Button>Submit</Button>
       </Form>
