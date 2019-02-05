@@ -1,5 +1,4 @@
 import React, { Component, fragment } from "react";
-// import logo from './logo.svg';
 import Navbar from "../components/Navbar";
 import BookSearch from "../components/BookSearch/search";
 import Results from "../components/Results/results";
