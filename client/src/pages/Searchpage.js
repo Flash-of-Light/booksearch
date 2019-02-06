@@ -14,7 +14,6 @@ class Searchpage extends Component {
         <Jumbotron />
         <BookSearch />
         <Results />
-
       </fragment>
     );
   }

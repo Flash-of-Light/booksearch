@@ -3,7 +3,7 @@ import "./style.css";
 
 function Navbar(props) {
   return (
-    <navbar className="navbar navbar-expand-lg navbar-light bg-light">
+    <div className="navbar navbar-expand-lg navbar-light bg-light">
       <nav className="navbar-brand">Book Search</nav>
       <nav className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
@@ -18,7 +18,7 @@ function Navbar(props) {
           </li>
         </ul>
       </nav>
-    </navbar>
+    </div>
   );
 }
 
